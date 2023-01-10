@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tugasapkwisata/detail_screen.dart';
+import 'package:tugasapkwisata/main_screen.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'DEMAK TRAVEL',
       theme: ThemeData(),
-      home: const DetailScreen(),
+      home: const MainScreen(),
     );
   }
 }
